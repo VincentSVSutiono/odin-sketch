@@ -1,0 +1,12 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container:first-child {
+  background-color: aqua;
+  width: 30px;
+  height: 30px;
+  border: 2px solid rebeccapurple;
+}
