@@ -4,9 +4,16 @@
   box-sizing: border-box;
 }
 
-.container:first-child {
-  background-color: aqua;
-  width: 30px;
-  height: 30px;
-  border: 2px solid rebeccapurple;
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  padding: 2rem 0;
+  gap: 1rem;
+}
+
+button {
+  padding: 1rem;
+  font-weight: 700;
 }
